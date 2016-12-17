@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(images/pic.jpg);
+            background-size: cover;
+            text-align: center;
+        }
+        
+        #center {
+            width: 650px;
+            margin: 0 auto;
+        }
+        
+        #title {
+            background-image: url(images/top.jpg);
+            width: 650px;
+            height: 90px;
+        }
+        
+        #table {
+            width: 650px;
+            margin-top: 10px;
+            background-color: #ffffff;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        
+        #info {
+            width: 450px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        
+        .left {
+            text-align: right;
+            background-color: #ccffff;
+            font-family: "楷体";
+            height: 30px;
+        }
+        
+        .right {
+            text-align: left;
+            background-color: #ccffff;
+        }
+        #bottom{
+            text-align: center;
+            width: 650px;
+            height: 40px;
+            line-height: 40px;
+            background-color: #f6c374;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="center">
+        <div id="title">
+
+        </div>
+        <div id="table">
+            <form action="">
+                <table id="info" border='1' cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td style="background-color: #feff99; height: 40px; width: 450px;" colspan="2">网上报名</td>
+                    </tr>
+                    <tr>
+                        <td class="left">姓名：</td>
+                        <td class="right">
+                            <input type="text" name="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">性别：</td>
+                        <td class="right">
+                            <input type="radio" name="sex" value="男">男
+                            <input type="radio" name="sex" value="女">女
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">年龄：</td>
+                        <td class="right">
+                            <input type="text" name="age" style="width:90px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">报考科目：</td>
+                        <td class="right">
+                            <input type="checkbox" name="class" value="英语">英语
+                            <input type="checkbox" name="class" value="数学">数学
+                            <input type="checkbox" name="class" value="政治">政治
+                            <input type="checkbox" name="class" value="专业课">专业课
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">联系电话：</td>
+                        <td class="right">
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">上传照片：</td>
+                        <td class="right">
+                            <input type="file">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">说明：</td>
+                        <td class="right">
+                            <textarea name="" id="" cols="30" rows="5"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" name="submit" value="提交" style="margin-right:30px">
+                <input type="button" value="取消">
+            </form>
+        </div>
+        <div id="bottom">
+            Copyright @ 2010-2015 wsbm.com
+        </div>
+    </div>
+</body>
+
+</html>
